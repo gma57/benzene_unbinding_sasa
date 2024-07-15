@@ -45,7 +45,7 @@ if __name__ == "__main__":
     traj3 = traj1+traj2
         
         
-    protein_sel = traj3.top.select ('resid 13 15 19 21 44 47 48 56 59 60 63 69 71 74 76 86 88 104 106 108 11 24 28 32 34 39 90 91')
+    protein_sel = traj3.top.select ('resid 78 84 87 88 91 99 102 103 111 114 117 118 121 133 153')
     protein_traj = traj3.atom_slice (protein_sel)
     
 
